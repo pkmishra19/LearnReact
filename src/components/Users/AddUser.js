@@ -18,7 +18,7 @@ const AddUser = (props) => {
     const enteredUserAge = ageInputRef.current.value;
     if (enteredName.trim().length === 0 || enteredUserAge.trim().length === 0) {
       setError({
-        title: 'Invalid input',
+        title: 'Invalid input test',
         message: 'Please enter a valid name and age (non-empty values).',
       });
       return;
